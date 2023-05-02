@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     MainDIModule().configure(GetIt.I);
+    
     return MaterialApp(
       title: 'Test app',
       home: CharactersScreen(),
